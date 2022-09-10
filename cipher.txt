@@ -1,0 +1,30 @@
+I love cryptography
+2G jmtc apwrmepynfw
+
+this cipher takes in a number at index [0].  That number tells you how many letters to advance in the alphabet to get the ciphered code.
+
+const decoder = code => {
+//   const alphabet = "abcdefghijklmnopqrstuvwxyz";
+// //   const num = +code[0];
+// // console.log(num)
+//   let answer = ''
+//   for (let i=0; i<code.length; i++) {
+//     let index = answer.indexOf(code[i])
+//       answer += (alphabet[index])
+//   }
+//   return answer
+//   }
+
+const decoder2 = code => {
+//   const alphabet = "abcdefghijklmnopqrstuvwxyz";
+//   const num = +code[0];
+// console.log(num)
+//   let answer = []
+//   for (let i=1; i<code.length; i++) {
+//     for (let j=0; i<alphabet.length; i++) {
+//     if(code[i] === alphabet[j]){
+//       answer.push(alphabet[j+num])
+//     }
+//     }
+//   }
+//   return answer.join('')
